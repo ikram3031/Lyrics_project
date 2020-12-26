@@ -8,6 +8,9 @@
 </head>
 <body>
     <div id="head_flex">
+        <div id="log">
+            <h4 ><a href="index.html">Go to Home</a></h4>
+        </div>
         <div id="abc">
             <h2>This Is ABC lyrics </h2>
         </div>
@@ -15,10 +18,23 @@
     <div class="flex">
     <div id="left">
         <h2>Log in</h2>
-        <label for="Name">Name: </label> 
-        <input type="text" name="username" id="" autocomplete="false" autofocus="false"/> <br>
-        <label for="Password">Password: </label>
-        <input type="password" name="pass" id="" autocomplete="false" autofocus="false"/><br>
+        <table id="log_in" border="" cellpadding="10" align="center">
+            <tr>
+                <td>Name: </td>
+                <td><input type="text" name="username" id="" autocomplete="false" autofocus="false"/></td>
+            </tr>
+            <tr>
+                <td>Password: </td>
+                <td><input type="password" name="pass" id="" autocomplete="false" autofocus="false"/></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Log in</button>
+                </td>
+            </tr>
+        </table>
+        
+        <br>
         <h3>Don't Have an acoount?? <br> 
         Sign Up For Free</h3>
     </div>

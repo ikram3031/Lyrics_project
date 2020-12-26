@@ -46,3 +46,7 @@ body {
     height: 50px;
     position: bottom;
 }
+#log_in{
+    background-color: bisque;
+    text-align: left;
+}
