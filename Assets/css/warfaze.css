@@ -1,4 +1,17 @@
-
+#warfaze{
+    font-family: 'Mina', sans-serif;
+    color:rgb(173, 222, 235);
+    text-align: justify;
+    text-shadow: 2px 3px rgb(56, 24, 97);
+    text-decoration-color: rgb(6, 6, 97);
+    font-size: larger;
+}
+#albums{
+    color:cornsilk;
+}
+body {
+    background-color: aquamarine;
+}
 #head_flex {
     border: 1px solid black;
     background-size: 100px 80px;
@@ -24,9 +37,11 @@
     width: 75%;
 }
 #right{
+    background-size: 100px 80px;
     padding: 15px;
+    background-color: black;
     text-align: center;
-    height: 00px;
+    height: 600px;
     width: 25%;
 }
 #foot {

@@ -1,9 +1,6 @@
 
 #head_flex {
-    border: 1px solid black;
-    background-size: 100px 80px;
     padding: 15px;
-    background-color: lightblue;
     display: flex ;
     text-align: center;
 }
@@ -16,6 +13,9 @@
 
 .flex {
     display: flex ;
+    color: bisque;
+    text-shadow: 2px 2px blue;
+    font-size: larger;
 }
 #left{
     padding: 15px;
@@ -26,7 +26,7 @@
 #right{
     padding: 15px;
     text-align: center;
-    height: 00px;
+    height: 600px;
     width: 25%;
 }
 #foot {
@@ -38,7 +38,6 @@
     height: 50px;
     position: bottom;
 }
-#log_in{
-    background-color: bisque;
+#sign_up {
     text-align: left;
 }
